@@ -6,8 +6,8 @@ from datetime import datetime, timezone
 try:
     conn = psycopg2.connect(
         dbname="cnc_metrics_v2",
-        user="cnc_user_v2",
-        password="cnc_pass_v2",
+        user="----",
+        password="-----",
         host="localhost",
         port=5434
     )
@@ -32,3 +32,4 @@ try:
         time.sleep(5)
 except Exception as e:
     print(f"[DB ERROR] {e}")
+
