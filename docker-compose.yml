@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       POSTGRES_DB: cnc_metrics_v2
-      POSTGRES_USER: cnc_user_v2
-      POSTGRES_PASSWORD: cnc_pass_v2
+      POSTGRES_USER: ----
+      POSTGRES_PASSWORD: ----
     ports:
       - "5434:5432"
     volumes:
@@ -26,3 +26,4 @@ services:
 volumes:
   pgdata_v2:
   grafana_storage_v2:
+
