@@ -19,7 +19,7 @@
 
 🏗️ Tech Stack
 
-- Backend: Python, PostgreSQL
+- Backend: Python, PostgreSQL, Docker
   - Pointer: Handles data ingestion and storage.
 
 - Visualization: Grafana
@@ -29,4 +29,5 @@
   - Pointer: Manages application containers and orchestration.
 
 - Data Source: MTConnect streams (demo + configurable)
+
   - Pointer: Supplies CNC machine data via standard protocol.
