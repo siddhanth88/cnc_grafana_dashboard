@@ -19,7 +19,7 @@
 
 🏗️ Tech Stack
 
-- Backend: Python, PostgreSQL, Docker
+- Backend: Python, PostgreSQL
   - Pointer: Handles data ingestion and storage.
 
 - Visualization: Grafana
