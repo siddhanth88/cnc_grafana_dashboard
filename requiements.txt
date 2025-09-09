@@ -1,0 +1,8 @@
+psycopg2-binary==2.9.9   # PostgreSQL connector
+sqlalchemy==2.0.20       # Optional, for cleaner DB handling
+pandas==2.0.3            # For data handling
+numpy==1.25.2            # For anomaly detection / calculations
+scikit-learn==1.3.0      # For IsolationForest or anomaly models
+requests==2.31.0         # To fetch MTConnect XML streams
+xmltodict==0.13.0        # Parse MTConnect XML to Python dict
+matplotlib==3.7.2        # For debugging plots (optional)
